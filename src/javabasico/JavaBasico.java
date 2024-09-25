@@ -31,7 +31,14 @@ public class JavaBasico {
          case 2:
             TiposDatos tp =  new TiposDatos();
             tp.tiposdeDatos1();
-            break;   
+            break;
+         case 3:
+             EstructuraControl ec = new EstructuraControl(5);
+             ec.TablaMultilicar(7);
+             break;
+         case 4 :
+             Exepciones ex =  new Exepciones();
+             ex.manejoError();
       
      }
      
